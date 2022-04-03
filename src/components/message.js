@@ -11,7 +11,7 @@ class Message extends Component{
 
     changeMessage=() => {
         try {
-            console.log('jhgzsf', this.state)
+            console.log('state is going to chage', this.state)
         this.setState({
             message:'Thanks for subscribing'
         },()=>{
